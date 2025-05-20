@@ -1,0 +1,17 @@
+{
+  "name": "high_weight",
+  "description": "High class weight model",
+  "client_args": [
+    "--pos_weight",
+    "15.0",
+    "--threshold",
+    "0.03"
+  ],
+  "server_args": [
+    "--aggregation",
+    "fedprox",
+    "--mu",
+    "0.01"
+  ],
+  "rounds": 30
+}
