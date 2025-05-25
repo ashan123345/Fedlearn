@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-05-24T15:06:16.757607",
+  "round": 9,
+  "threat_level": "low",
+  "suspicious_clients": [],
+  "trusted_clients": [],
+  "client_reputations": {
+    "2": 0.5099363912000002,
+    "1": 0.5099363912000002
+  },
+  "high_confidence_detections": {},
+  "total_clients": 2
+}

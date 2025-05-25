@@ -1,0 +1,159 @@
+{
+  "report_metadata": {
+    "round": 19,
+    "timestamp": "2025-05-24T22:40:50.448311",
+    "report_type": "security_analysis",
+    "version": "1.0"
+  },
+  "executive_summary": {
+    "threat_level": "medium",
+    "security_score": 0.45,
+    "total_clients": 2,
+    "trusted_clients": 1,
+    "suspicious_clients": 1,
+    "aggregation_action": "use_all"
+  },
+  "detailed_analysis": {
+    "poisoning_detection": {
+      "round": 19,
+      "threat_level": "low",
+      "suspicious_clients": [],
+      "trusted_clients": [],
+      "client_reputations": {
+        "1": 0.30806813741383965,
+        "5": 0.30806813741383965
+      },
+      "high_confidence_detections": {},
+      "total_clients": 2
+    },
+    "anomaly_detection": {
+      "round": 19,
+      "num_clients": 2,
+      "client_features": {
+        "1": {
+          "total_norm": 738.2460286512198,
+          "total_params": 3137.0,
+          "avg_norm_per_param": 0.23533504260478044,
+          "max_layer_norm": 396.2233514789338,
+          "min_layer_norm": 0.3483727280414821,
+          "std_layer_norm": 153.72319930626884,
+          "param_mean": 0.8103545182051121,
+          "param_std": 8.573027764260688,
+          "param_max": 139.1385335423523,
+          "param_skewness": -3.917189754378702,
+          "param_kurtosis": 57.77298650092305,
+          "accuracy": 0.8622641509433963,
+          "loss": 13.774498494237621,
+          "poisoning_active": 0.0
+        },
+        "5": {
+          "total_norm": 1084.7542095184326,
+          "total_params": 3137.0,
+          "avg_norm_per_param": 0.34579350000586484,
+          "max_layer_norm": 718.9022216796875,
+          "min_layer_norm": 0.0,
+          "std_layer_norm": 258.9374694824219,
+          "param_mean": 0.5435468554496765,
+          "param_std": 13.800806999206543,
+          "param_max": 327.830322265625,
+          "param_skewness": -7.4769383723608795,
+          "param_kurtosis": 166.03680806686347,
+          "accuracy": 0.8471698113207548,
+          "loss": 15.283772970979232,
+          "poisoning_active": 0.0
+        }
+      },
+      "method_results": {
+        "statistical": {
+          "1": 0.0,
+          "5": 0.0
+        },
+        "performance": {
+          "1": 0.8,
+          "5": 0.0
+        },
+        "parameter": {
+          "1": 0.9391385335423523,
+          "5": 1.0
+        },
+        "update_pattern": {
+          "1": 0.0,
+          "5": 0.0
+        }
+      },
+      "final_scores": {
+        "1": 0.5347846333855881,
+        "5": 0.25000000000000006
+      },
+      "consensus_info": {
+        "1": {
+          "num_methods_detected": 2,
+          "methods_detected": [
+            "performance",
+            "parameter"
+          ],
+          "individual_scores": {
+            "statistical": 0.0,
+            "performance": 0.8,
+            "parameter": 0.9391385335423523,
+            "update_pattern": 0.0
+          },
+          "consensus_ratio": 0.5
+        },
+        "5": {
+          "num_methods_detected": 1,
+          "methods_detected": [
+            "parameter"
+          ],
+          "individual_scores": {
+            "statistical": 0.0,
+            "performance": 0.0,
+            "parameter": 1.0,
+            "update_pattern": 0.0
+          },
+          "consensus_ratio": 0.25
+        }
+      },
+      "anomalous_clients": [
+        "1"
+      ],
+      "timestamp": "2025-05-24T22:40:50.422778"
+    },
+    "threat_assessment": {
+      "combined_threat_level": "medium",
+      "threat_factors": {
+        "poisoning_threat": "low",
+        "anomaly_threat": "high",
+        "consensus_threat": "low"
+      },
+      "suspicious_ratio": 0.5,
+      "high_confidence_ratio": 0.0
+    }
+  },
+  "client_analysis": {
+    "trusted_clients": [
+      "5"
+    ],
+    "poison_suspicious": [],
+    "anomaly_suspicious": [
+      "1"
+    ],
+    "high_confidence_suspicious": [],
+    "anomaly_scores": {
+      "1": 0.5347846333855881,
+      "5": 0.25000000000000006
+    }
+  },
+  "aggregation_details": {
+    "action": "use_all",
+    "rationale": "Medium threat within acceptable parameters",
+    "trusted_clients": [
+      "5"
+    ]
+  },
+  "performance_metrics": {
+    "accuracy": 0.8547169811320755,
+    "loss": 14.529135732608427,
+    "aggregated_clients": 2
+  }
+}

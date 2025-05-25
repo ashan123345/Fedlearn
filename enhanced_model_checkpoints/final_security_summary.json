@@ -1,0 +1,246 @@
+{
+  "summary_metadata": {
+    "total_rounds": 19,
+    "analysis_timestamp": "2025-05-24T22:46:01.039683",
+    "security_config": {
+      "security_mode": "strict",
+      "detection_enabled": true,
+      "anomaly_detection_enabled": true
+    }
+  },
+  "overall_statistics": {
+    "threat_level_distribution": {
+      "medium": 7,
+      "low": 12
+    },
+    "average_security_score": 0.734,
+    "minimum_security_score": 0.45,
+    "problematic_rounds_count": 7,
+    "total_unique_clients": 1
+  },
+  "problematic_rounds": [
+    {
+      "round": 10,
+      "threat_level": "medium",
+      "security_score": 0.45,
+      "suspicious_clients": [
+        "5"
+      ]
+    },
+    {
+      "round": 12,
+      "threat_level": "medium",
+      "security_score": 0.45,
+      "suspicious_clients": [
+        "5"
+      ]
+    },
+    {
+      "round": 13,
+      "threat_level": "medium",
+      "security_score": 0.45,
+      "suspicious_clients": [
+        "5"
+      ]
+    },
+    {
+      "round": 14,
+      "threat_level": "medium",
+      "security_score": 0.45,
+      "suspicious_clients": [
+        "5"
+      ]
+    },
+    {
+      "round": 17,
+      "threat_level": "medium",
+      "security_score": 0.45,
+      "suspicious_clients": [
+        "5"
+      ]
+    },
+    {
+      "round": 18,
+      "threat_level": "medium",
+      "security_score": 0.45,
+      "suspicious_clients": [
+        "5"
+      ]
+    },
+    {
+      "round": 20,
+      "threat_level": "medium",
+      "security_score": 0.45,
+      "suspicious_clients": [
+        "5"
+      ]
+    }
+  ],
+  "client_reputation_analysis": {
+    "frequently_suspicious_clients": {
+      "5": 7
+    },
+    "client_suspicious_counts": {
+      "5": 7
+    }
+  },
+  "security_trends": {
+    "security_scores_by_round": [
+      {
+        "round": 1,
+        "score": 0.9
+      },
+      {
+        "round": 2,
+        "score": 0.9
+      },
+      {
+        "round": 3,
+        "score": 0.9
+      },
+      {
+        "round": 4,
+        "score": 0.9
+      },
+      {
+        "round": 5,
+        "score": 0.9
+      },
+      {
+        "round": 6,
+        "score": 0.9
+      },
+      {
+        "round": 7,
+        "score": 0.9
+      },
+      {
+        "round": 8,
+        "score": 0.9
+      },
+      {
+        "round": 9,
+        "score": 0.9
+      },
+      {
+        "round": 10,
+        "score": 0.45
+      },
+      {
+        "round": 11,
+        "score": 0.9
+      },
+      {
+        "round": 12,
+        "score": 0.45
+      },
+      {
+        "round": 13,
+        "score": 0.45
+      },
+      {
+        "round": 14,
+        "score": 0.45
+      },
+      {
+        "round": 15,
+        "score": 0.9
+      },
+      {
+        "round": 16,
+        "score": 0.9
+      },
+      {
+        "round": 17,
+        "score": 0.45
+      },
+      {
+        "round": 18,
+        "score": 0.45
+      },
+      {
+        "round": 19,
+        "score": 0.45
+      }
+    ],
+    "threat_levels_by_round": [
+      {
+        "round": 1,
+        "threat_level": "low"
+      },
+      {
+        "round": 2,
+        "threat_level": "low"
+      },
+      {
+        "round": 3,
+        "threat_level": "low"
+      },
+      {
+        "round": 4,
+        "threat_level": "low"
+      },
+      {
+        "round": 5,
+        "threat_level": "low"
+      },
+      {
+        "round": 6,
+        "threat_level": "low"
+      },
+      {
+        "round": 7,
+        "threat_level": "low"
+      },
+      {
+        "round": 8,
+        "threat_level": "low"
+      },
+      {
+        "round": 9,
+        "threat_level": "low"
+      },
+      {
+        "round": 10,
+        "threat_level": "medium"
+      },
+      {
+        "round": 11,
+        "threat_level": "low"
+      },
+      {
+        "round": 12,
+        "threat_level": "medium"
+      },
+      {
+        "round": 13,
+        "threat_level": "medium"
+      },
+      {
+        "round": 14,
+        "threat_level": "medium"
+      },
+      {
+        "round": 15,
+        "threat_level": "low"
+      },
+      {
+        "round": 16,
+        "threat_level": "low"
+      },
+      {
+        "round": 17,
+        "threat_level": "medium"
+      },
+      {
+        "round": 18,
+        "threat_level": "medium"
+      },
+      {
+        "round": 19,
+        "threat_level": "medium"
+      }
+    ]
+  },
+  "recommendations": []
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "round": 1,
+    "accuracy": 0.19905660377358492,
+    "loss": 0.7481148240701208,
+    "threat_level": "low",
+    "trusted_clients_count": 2,
+    "suspicious_clients_count": 0,
+    "aggregated_clients": 2,
+    "total_clients": 2
+  },
+  {
+    "round": 2,
+    "accuracy": 0.33176100628930816,
+    "loss": 0.7168955894968944,
+    "threat_level": "low",
+    "trusted_clients_count": 2,
+    "suspicious_clients_count": 0,
+    "aggregated_clients": 2,
+    "total_clients": 2
+  },
+  {
+    "round": 3,
+    "accuracy": 0.5426100628930818,
+    "loss": 0.6919040681739733,
+    "threat_level": "low",
+    "trusted_clients_count": 2,
+    "suspicious_clients_count": 0,
+    "aggregated_clients": 2,
+    "total_clients": 2
+  },
+  {
+    "round": 4,
+    "accuracy": 0.7022012578616352,
+    "loss": 0.6718931390792218,
+    "threat_level": "low",
+    "trusted_clients_count": 2,
+    "suspicious_clients_count": 0,
+    "aggregated_clients": 2,
+    "total_clients": 2
+  },
+  {
+    "round": 5,
+    "accuracy": 0.7921383647798743,
+    "loss": 0.6541692570726646,
+    "threat_level": "low",
+    "trusted_clients_count": 2,
+    "suspicious_clients_count": 0,
+    "aggregated_clients": 2,
+    "total_clients": 2
+  },
+  {
+    "round": 6,
+    "accuracy": 0.8372641509433962,
+    "loss": 0.6312901742384548,
+    "threat_level": "low",
+    "trusted_clients_count": 2,
+    "suspicious_clients_count": 0,
+    "aggregated_clients": 2,
+    "total_clients": 2
+  },
+  {
+    "round": 7,
+    "accuracy": 0.8522012578616353,
+    "loss": 0.6103781178204796,
+    "threat_level": "low",
+    "trusted_clients_count": 0,
+    "suspicious_clients_count": 2,
+    "aggregated_clients": 2,
+    "total_clients": 2
+  }
+]

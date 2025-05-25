@@ -1,0 +1,93 @@
+{
+  "round": 10,
+  "num_clients": 2,
+  "client_features": {
+    "5": {
+      "total_norm": 308.67637836933136,
+      "total_params": 3137.0,
+      "avg_norm_per_param": 0.0983985904906986,
+      "max_layer_norm": 193.37417602539062,
+      "min_layer_norm": 0.0,
+      "std_layer_norm": 65.88392639160156,
+      "param_mean": -1.0868408679962158,
+      "param_std": 3.490450382232666,
+      "param_max": 30.51045799255371,
+      "param_skewness": -3.672796509005477,
+      "param_kurtosis": 20.220374148822195,
+      "accuracy": 0.95,
+      "loss": 14.150857791735692,
+      "poisoning_active": 0.0
+    },
+    "1": {
+      "total_norm": 215.37442495385406,
+      "total_params": 3137.0,
+      "avg_norm_per_param": 0.0686561762683606,
+      "max_layer_norm": 104.59566122772321,
+      "min_layer_norm": 0.6406233362535279,
+      "std_layer_norm": 36.480526619605534,
+      "param_mean": -1.0657624358434514,
+      "param_std": 1.9682559409156535,
+      "param_max": 12.767218938092913,
+      "param_skewness": -1.9318485336048625,
+      "param_kurtosis": 7.692737050852124,
+      "accuracy": 0.6921383647798742,
+      "loss": 12.925020311013707,
+      "poisoning_active": 0.0
+    }
+  },
+  "method_results": {
+    "statistical": {
+      "5": 0.0,
+      "1": 0.0
+    },
+    "performance": {
+      "5": 0.8,
+      "1": 0.0
+    },
+    "parameter": {
+      "5": 0.8,
+      "1": 0.6000000000000001
+    },
+    "update_pattern": {
+      "5": 0.0,
+      "1": 0.0
+    }
+  },
+  "final_scores": {
+    "5": 0.5000000000000001,
+    "1": 0.15000000000000005
+  },
+  "consensus_info": {
+    "5": {
+      "num_methods_detected": 2,
+      "methods_detected": [
+        "performance",
+        "parameter"
+      ],
+      "individual_scores": {
+        "statistical": 0.0,
+        "performance": 0.8,
+        "parameter": 0.8,
+        "update_pattern": 0.0
+      },
+      "consensus_ratio": 0.5
+    },
+    "1": {
+      "num_methods_detected": 1,
+      "methods_detected": [
+        "parameter"
+      ],
+      "individual_scores": {
+        "statistical": 0.0,
+        "performance": 0.0,
+        "parameter": 0.6000000000000001,
+        "update_pattern": 0.0
+      },
+      "consensus_ratio": 0.25
+    }
+  },
+  "anomalous_clients": [
+    "5"
+  ],
+  "timestamp": "2025-05-24T22:45:50.441285"
+}

@@ -1,0 +1,132 @@
+{
+  "round": 2,
+  "num_clients": 2,
+  "timestamp": "2025-05-24T22:45:42.130047",
+  "poisoning_detection": {
+    "round": 2,
+    "threat_level": "low",
+    "suspicious_clients": [],
+    "trusted_clients": [
+      "1",
+      "5"
+    ],
+    "client_reputations": {
+      "1": 0.8480000000000001,
+      "5": 0.8480000000000001
+    },
+    "high_confidence_detections": {},
+    "total_clients": 2
+  },
+  "poisoning_safe": true,
+  "anomaly_detection": {
+    "round": 2,
+    "num_clients": 2,
+    "client_features": {
+      "1": {
+        "total_norm": 17.049013057671708,
+        "total_params": 3137.0,
+        "avg_norm_per_param": 0.0054348144908100615,
+        "max_layer_norm": 7.26978840537541,
+        "min_layer_norm": 0.30413662823481286,
+        "std_layer_norm": 2.938762611579698,
+        "param_mean": -0.11463483555153085,
+        "param_std": 0.1371867583671255,
+        "param_max": 0.6843991900669675,
+        "param_skewness": -0.08613550812120124,
+        "param_kurtosis": 1.03796655883417,
+        "accuracy": 0.8622641509433963,
+        "loss": 0.5998122772742278,
+        "poisoning_active": 0.0
+      },
+      "5": {
+        "total_norm": 54.630942583084106,
+        "total_params": 3137.0,
+        "avg_norm_per_param": 0.017415027919375953,
+        "max_layer_norm": 24.33455467224121,
+        "min_layer_norm": 0.2801806628704071,
+        "std_layer_norm": 10.492962837219238,
+        "param_mean": -0.5451072454452515,
+        "param_std": 0.2683511972427368,
+        "param_max": 2.1237239837646484,
+        "param_skewness": -0.3265323591132103,
+        "param_kurtosis": 8.051390295025268,
+        "accuracy": 0.95,
+        "loss": 2.40671137725172,
+        "poisoning_active": 0.0
+      }
+    },
+    "method_results": {
+      "statistical": {
+        "1": 0.0,
+        "5": 0.0
+      },
+      "performance": {
+        "1": 0.4,
+        "5": 0.575838922156465
+      },
+      "parameter": {
+        "1": 0.2,
+        "5": 0.4
+      },
+      "update_pattern": {
+        "1": 0.0,
+        "5": 0.0
+      }
+    },
+    "final_scores": {
+      "1": 0.2,
+      "5": 0.3159395958086744
+    },
+    "consensus_info": {
+      "1": {
+        "num_methods_detected": 0,
+        "methods_detected": [],
+        "individual_scores": {
+          "statistical": 0.0,
+          "performance": 0.4,
+          "parameter": 0.2,
+          "update_pattern": 0.0
+        },
+        "consensus_ratio": 0.0
+      },
+      "5": {
+        "num_methods_detected": 1,
+        "methods_detected": [
+          "performance"
+        ],
+        "individual_scores": {
+          "statistical": 0.0,
+          "performance": 0.575838922156465,
+          "parameter": 0.4,
+          "update_pattern": 0.0
+        },
+        "consensus_ratio": 0.25
+      }
+    },
+    "anomalous_clients": [],
+    "timestamp": "2025-05-24T22:45:42.148219"
+  },
+  "anomaly_scores": {
+    "1": 0.2,
+    "5": 0.3159395958086744
+  },
+  "combined_threat_level": "low",
+  "suspicious_ratio": 0.0,
+  "high_confidence_ratio": 0.0,
+  "poison_suspicious": [],
+  "anomaly_suspicious": [],
+  "all_suspicious": [],
+  "high_confidence_suspicious": [],
+  "threat_factors": {
+    "poisoning_threat": "low",
+    "anomaly_threat": "low",
+    "consensus_threat": "low"
+  },
+  "trusted_clients": [
+    "5",
+    "1"
+  ],
+  "model_path": "enhanced_model_checkpoints\\enhanced_model_round_2.pt",
+  "params_path": "enhanced_model_checkpoints\\enhanced_params_round_2.npz",
+  "saved_timestamp": "2025-05-24T22:45:42.155233"
+}
